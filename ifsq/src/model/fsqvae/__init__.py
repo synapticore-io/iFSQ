@@ -1,0 +1,1 @@
+from .modeling_imagefsqvae import ImageFSQVAEModel
