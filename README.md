@@ -3,8 +3,8 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.17124-b31b1b.svg)](https://arxiv.org/abs/2601.17124)
-[![License](https://img.shields.io/badge/Apache2.0-blue.svg)](LICENSE.txt)
-
+[![hf_paper](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2601.17124)
+[![License](https://img.shields.io/badge/License-Apache2.0-blue)](LICENSE.txt)
 </div>
 
 This repository contains the official implementation of **iFSQ** and **LlamaGen-REPA**.
@@ -87,7 +87,7 @@ Using the iFSQ trained in the previous stage.
 ```bash
 cd llamagen
 torchrun --nproc_per_node=8 \
-    train.py --config configs/large_repa_d8_2p0/config.yaml
+    train.py --config configs/fsq17x4_large_repa8_0p5/config.yaml
 ```
 
 iFSQ can also use multi-codebook, where each token is represented by multiple indices. For example, each token uses 2 indices.
