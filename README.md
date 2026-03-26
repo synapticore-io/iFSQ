@@ -120,6 +120,8 @@ Alternatively, we also provide tools for validation following [ADM](https://gith
 
 ```bash
 # we recommend cuda12.2
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N71WOHZ3)
 conda create -n adm_eval python=3.10 -y
 conda activate adm_eval
 pip install tensorflow==2.15.0 scipy requests tqdm numpy==1.23.5
